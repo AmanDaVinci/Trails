@@ -1,0 +1,22 @@
+This is an example of a manifest file. It is used to declare the name, description, version number etc. of the extension.
+It is also used to declare the extension behaviour and the permissions.
+This file must have in JSON format.
+
+
+
+{
+  "manifest_version": 2,
+
+  "name": "Getting started example",
+  "description": "This extension shows a Google Image search result for the current page",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
