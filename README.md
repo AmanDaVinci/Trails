@@ -2,9 +2,9 @@
 A tool to save, categorize and share entire web sessions with a visual map of the surfing flow.
 
 #Set Up Instructions
-Clone the Directory
-Put the Trails_Server folder into your Server local host folder
-Load the Trails_Extension into your Chrome browser
+Clone the Directory <br />
+Put the Trails_Server folder into your Server local host folder <br />
+Load the Trails_Extension into your Chrome browser<br />
 
 Modules:
 
