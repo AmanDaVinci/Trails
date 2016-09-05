@@ -1,6 +1,11 @@
 # Trails
 A tool to save, categorize and share entire web sessions with a visual map of the surfing flow.
 
+#Set Up Instructions
+Clone the Directory
+Put the Trails_Server folder into your Server local host folder
+Load the Trails_Extension into your Chrome browser
+
 Modules:
 
 #1) Extension (Ayush and Swapnil)
