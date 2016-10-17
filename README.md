@@ -1,18 +1,15 @@
+<pre>
 # Trails
 A tool to save, categorize and share entire web sessions with a visual map of the surfing flow.
-
 #Set Up Instructions
 Clone the Directory <br />
 Put the Trails_Server folder into your Server local host folder <br />
 Load the Trails_Extension into your Chrome browser<br />
-
-Modules:
-
-#1) Extension (Ayush and Swapnil)
-  1.1) Save single link 
+<h1>Modules:<h1 />
+#1) Extension
+  1.1) Save single link <br />
   1.2) Save Session
     1.2.1) Add name / tags
-
 #2) Website
   2.1) Search Bar
     2.1.1) Tag
@@ -23,9 +20,8 @@ Modules:
   2.3) Flow Stack
     2.3.1) Map Dynamic Page
     2.3.2) Share
-    
 #3) Trails Engine
-  3.1) Database(NoSql) (Aman and Subhojeet)
+  3.1) Database(NoSql)
     3.1.1) Link Address
     3.1.2) Tags
     3.1.3) Screenshot
